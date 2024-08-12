@@ -1,6 +1,6 @@
 {
   "name": "@capacitor-community/barcode-scanner",
-  "version": "4.0.1",
+  "version": "6.0.1",
   "description": "A fast and efficient (QR) barcode scanner for Capacitor",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -43,14 +43,14 @@
     "verify:web": "npm run build"
   },
   "devDependencies": {
-    "@capacitor/android": "^5.0.1",
-    "@capacitor/core": "^5.0.1",
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/core": "^6.0.0",
     "@capacitor/docgen": "0.2.1",
-    "@capacitor/ios": "^5.0.1",
-    "@ionic/eslint-config": "^0.3.0",
+    "@capacitor/ios": "^6.0.0",
+    "@ionic/eslint-config": "^0.4.0",
     "@ionic/prettier-config": "^3.0.0",
     "@ionic/swiftlint-config": "^1.1.2",
-    "eslint": "^8.40.0",
+    "eslint": "^8.57.0",
     "husky": "^8.0.3",
     "prettier": "~2.8.8",
     "prettier-plugin-java": "~2.1.0",
@@ -61,7 +61,7 @@
     "typescript": "~5.0.4"
   },
   "peerDependencies": {
-    "@capacitor/core": "^5.0.0"
+    "@capacitor/core": "^6.0.0"
   },
   "capacitor": {
     "ios": {
@@ -84,7 +84,7 @@
     "example": "examples"
   },
   "dependencies": {
-    "@zxing/browser": "^0.1.3",
-    "@zxing/library": "^0.20.0"
+    "@zxing/browser": "^0.1.5",
+    "@zxing/library": "^0.21.0"
   }
 }
