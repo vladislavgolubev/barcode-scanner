@@ -2,7 +2,7 @@ import { WebPlugin } from '@capacitor/core';
 import { BarcodeFormat, BrowserQRCodeReader } from '@zxing/browser';
 import { DecodeHintType } from '@zxing/library';
 import { CameraDirection, } from './definitions';
-class BarcodeScannerWeb extends WebPlugin {
+export class BarcodeScannerWeb extends WebPlugin {
     constructor() {
         super(...arguments);
         this._formats = [];
@@ -239,5 +239,4 @@ class BarcodeScannerWeb extends WebPlugin {
 }
 BarcodeScannerWeb._FORWARD = { facingMode: 'user' };
 BarcodeScannerWeb._BACK = { facingMode: 'environment' };
-export { BarcodeScannerWeb };
 //# sourceMappingURL=web.js.map
